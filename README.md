@@ -54,6 +54,9 @@ and the chatbot UI should be available for you to start chatting.
 For using GPT and embedding models from OpenAI, you need to configure an OpenAI API key as environment variable.
 This requires you to have an OpenAI account, create a valid API key and set it as `OPENAI_API_KEY` in `.env.local` file.
 
+> [!NOTE]  
+> It is not enough to have an API key and a paid ChatGPT account.  API calls are billed separately, and you must pre-pay to use the API at https://platform.openai.com/settings/organization/billing/overview.  
+
 ```shell
 echo "OPENAI_API_KEY='sk-...'" > .env.local
 ```
