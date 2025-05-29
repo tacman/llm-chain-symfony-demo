@@ -6,6 +6,9 @@ Simple Symfony demo application on top of [LLM Chain](https://github.com/php-llm
 
 ![demo.png](demo.png)
 
+Interview with Mexican Synagogue Project 
+https://www.youtube.com/watch?v=NeRjdX06_n8&t=186s
+
 ## Requirements
 
 What you need to run this demo:
