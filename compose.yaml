@@ -14,6 +14,8 @@ services:
 
   chromadb:
     image: chromadb/chroma:0.5.23
+    ports:
+      - 8099:8000
     volumes:
       - ./chromadb:/chroma/chroma
     environment:
